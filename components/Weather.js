@@ -24,4 +24,10 @@ const styles = StyleSheet.create({
         width: '100%',
         height: '100%'
     },
+    cover:{
+        backgroundColor: '#000',
+        width:'100%',
+        height: 300,
+        opacity: 0.5,
+    }
 });
