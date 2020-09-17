@@ -7,8 +7,8 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Weather zipCode="90110" />
-      <StatusBar style="auto" />
+      <Weather zipCode="83120" />
+    
     </View>
   );
 
@@ -20,5 +20,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    borderColor: 'green',
+    borderWidth: 25,
   },
 })
